@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import HeroSection from '@/components/HeroSection';
 import QuizSection from '@/components/QuizSection';
+import StickyCTA from '@/components/StickyCTA';
 import { toast } from '@/hooks/use-toast';
 
 const Index = () => {
@@ -80,6 +81,7 @@ const Index = () => {
           </div>
         </div>
       </footer>
+      <StickyCTA />
     </div>
   );
 };

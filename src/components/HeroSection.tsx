@@ -8,7 +8,7 @@ interface HeroSectionProps {
 const HeroSection: React.FC<HeroSectionProps> = ({
   onStartQuiz
 }) => {
-  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero pb-20 md:pb-0">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Professional home and auto insurance" className="w-full h-full object-cover opacity-20" />

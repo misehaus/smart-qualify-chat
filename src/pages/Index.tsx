@@ -21,7 +21,7 @@ const Index = () => {
     });
     
     // For demo purposes, show an alert
-    alert("📞 Calling (833) 487-1939...\n\nIn a real implementation, this would initiate a phone call or redirect to a contact form.");
+    alert("📞 Calling (555) 123-4567...\n\nIn a real implementation, this would initiate a phone call or redirect to a contact form.");
   };
 
   return (

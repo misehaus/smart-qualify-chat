@@ -172,7 +172,7 @@ const QuizSection: React.FC<QuizSectionProps> = ({ onCallToAction }) => {
                 onClick={onCallToAction}
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Tap to Call 📞 (555) 123-4567
+                Tap to Call 📞 (833) 487-1939
               </Button>
               <p className="text-sm mt-3 opacity-90">
                 No obligation • Free consultation • Licensed agents

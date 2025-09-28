@@ -18,6 +18,7 @@ const buttonVariants = cva(
         hero: "bg-gradient-primary text-primary-foreground hover:bg-gradient-hero shadow-button hover:shadow-card hover:scale-105 text-lg font-semibold",
         success: "bg-success text-success-foreground hover:bg-success-light shadow-button hover:shadow-card hover:scale-105",
         cta: "bg-warning text-warning-foreground hover:bg-warning/90 shadow-button hover:shadow-card hover:scale-105 font-bold",
+        gold: "bg-gold text-gold-foreground hover:bg-gold/90 shadow-button hover:shadow-card hover:scale-105 font-bold uppercase",
       },
       size: {
         default: "h-10 px-4 py-2",

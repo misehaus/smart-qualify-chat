@@ -73,16 +73,15 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         {/* CTA Button */}
         <div className="animate-bounce-in">
           <Button 
-            variant="hero" 
+            variant="gold" 
             size="xl" 
             onClick={onStartQuiz}
-            className="mb-4"
+            className="mb-4 animate-pulse"
           >
-            Start Free Quiz Now
-            <ChevronDown className="w-5 h-5 ml-2" />
+            Start Quiz
           </Button>
           <p className="text-sm text-primary-foreground/70">
-            Join thousands of homeowners already saving money
+            No obligation. We respect your privacy.
           </p>
         </div>
 

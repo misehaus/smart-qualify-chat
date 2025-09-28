@@ -24,6 +24,10 @@
     --warning: 45 93% 47%;           /* Professional orange */
     --warning-foreground: 0 0% 100%;
     
+    /* Gold CTA Color */
+    --gold: 51 100% 50%;             /* Gold #FFD700 */
+    --gold-foreground: 0 0% 0%;
+    
     /* Secondary & Neutral Palette */
     --secondary: 215 16% 95%;        /* Light gray background */
     --secondary-foreground: 215 25% 25%;

@@ -73,7 +73,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         {/* CTA Button */}
         <div className="animate-bounce-in">
           <Button 
-            variant="hero" 
+            variant="gold" 
             size="xl" 
             onClick={onStartQuiz}
             className="mb-4"

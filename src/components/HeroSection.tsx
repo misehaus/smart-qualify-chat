@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Shield, TrendingDown } from 'lucide-react';
 import heroImage from '@/assets/hero-insurance.jpg';
+import scrLogo from '@/assets/scr-logo.png';
 
 interface HeroSectionProps {
   onStartQuiz: () => void;
@@ -32,7 +33,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
 
         {/* Main Headline */}
         <h1 className="animate-fade-in-up text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Homeowners: You Could Be{' '}
+          <span className="block sm:inline">Homeowners:</span> You Could Be{' '}
             <span className="text-gold">
               Missing Out
             </span>
@@ -88,6 +89,15 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ChevronDown className="w-6 h-6 text-primary-foreground/60" />
+        </div>
+
+        {/* Trust Logo - Subtle placement */}
+        <div className="absolute bottom-4 right-4 opacity-60 hover:opacity-80 transition-opacity">
+          <img 
+            src={scrLogo} 
+            alt="SmartCoverageReviews - Trusted Insurance Partner"
+            className="h-8 w-auto"
+          />
         </div>
       </div>
     </section>

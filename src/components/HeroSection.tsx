@@ -80,7 +80,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
             Start Free Quiz Now
             <ChevronDown className="w-5 h-5 ml-2" />
           </Button>
-          <p className="text-sm text-primary-foreground/70">
+          <p className="text-sm text-primary-foreground/70 -mt-2">
             Join thousands of homeowners already saving money
           </p>
         </div>

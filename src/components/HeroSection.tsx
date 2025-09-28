@@ -45,22 +45,22 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         </p>
 
         {/* Value Proposition Points */}
-        <div className="animate-bounce-in grid md:grid-cols-3 gap-6 mb-10 max-w-3xl text-left">
-          <div className="flex items-center text-left">
+        <div className="animate-bounce-in grid md:grid-cols-3 gap-6 mb-10">
+          <div className="flex items-center justify-center text-center md:text-left">
             <TrendingDown className="w-8 h-8 mr-3 text-success-light" />
             <div>
               <div className="font-semibold text-lg">Save up to 25%</div>
               <div className="text-primary-foreground/80">on your auto insurance</div>
             </div>
           </div>
-          <div className="flex items-center text-left">
+          <div className="flex items-center justify-center text-center md:text-left">
             <Shield className="w-8 h-8 mr-3 text-success-light" />
             <div>
               <div className="font-semibold text-lg">No obligation</div>
               <div className="text-primary-foreground/80">Free consultation</div>
             </div>
           </div>
-          <div className="flex items-center text-left">
+          <div className="flex items-center justify-center text-center md:text-left">
             <ChevronDown className="w-8 h-8 mr-3 text-success-light" />
             <div>
               <div className="font-semibold text-lg">Quick & Easy</div>
@@ -70,7 +70,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         </div>
 
         {/* CTA Button */}
-        <div className="animate-bounce-in text-left max-w-3xl">
+        <div className="animate-bounce-in">
           <Button 
             variant="gold" 
             size="xl" 

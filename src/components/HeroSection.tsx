@@ -2,21 +2,16 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Shield, TrendingDown } from 'lucide-react';
 import heroImage from '@/assets/hero-insurance.jpg';
-
 interface HeroSectionProps {
   onStartQuiz: () => void;
 }
-
-const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+const HeroSection: React.FC<HeroSectionProps> = ({
+  onStartQuiz
+}) => {
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Professional home and auto insurance"
-          className="w-full h-full object-cover opacity-20"
-        />
+        <img src={heroImage} alt="Professional home and auto insurance" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
       </div>
 
@@ -71,18 +66,11 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
 
         {/* CTA Button */}
         <div className="animate-bounce-in">
-          <Button 
-            variant="gold" 
-            size="xl" 
-            onClick={onStartQuiz}
-            className="mb-4"
-          >
+          <Button variant="gold" size="xl" onClick={onStartQuiz} className="mb-4">
             Start Free Quiz Now
             <ChevronDown className="w-5 h-5 ml-2" />
           </Button>
-          <p className="text-sm text-primary-foreground/70 -mt-2">
-            Join thousands of homeowners already saving money
-          </p>
+          
         </div>
 
         {/* Scroll Indicator */}
@@ -90,8 +78,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
           <ChevronDown className="w-6 h-6 text-primary-foreground/60" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

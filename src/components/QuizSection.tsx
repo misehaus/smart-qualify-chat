@@ -79,22 +79,22 @@ const QuizSection: React.FC<QuizSectionProps> = ({ onCallToAction }) => {
           <div className="grid md:grid-cols-2 gap-4">
             <Card 
               className="quiz-option p-6 cursor-pointer border-2 hover:border-primary bg-card"
-              onClick={() => handleHomeSelection('own')}
-            >
-              <div className="text-center">
-                <Home className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h4 className="text-xl font-semibold mb-2">I own my home</h4>
-                <p className="text-muted-foreground">You may qualify for homeowner discounts</p>
-              </div>
-            </Card>
-            <Card 
-              className="quiz-option p-6 cursor-pointer border-2 hover:border-primary bg-card"
               onClick={() => handleHomeSelection('rent')}
             >
               <div className="text-center">
                 <UserCheck className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h4 className="text-xl font-semibold mb-2">I rent / don't own</h4>
                 <p className="text-muted-foreground">Other discounts may be available</p>
+              </div>
+            </Card>
+            <Card 
+              className="quiz-option p-6 cursor-pointer border-2 hover:border-primary bg-card"
+              onClick={() => handleHomeSelection('own')}
+            >
+              <div className="text-center">
+                <Home className="w-12 h-12 text-primary mx-auto mb-4" />
+                <h4 className="text-xl font-semibold mb-2">I own my home</h4>
+                <p className="text-muted-foreground">You may qualify for homeowner discounts</p>
               </div>
             </Card>
           </div>

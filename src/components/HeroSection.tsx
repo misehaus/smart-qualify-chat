@@ -33,10 +33,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         {/* Main Headline */}
         <h1 className="animate-fade-in-up text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Homeowners: You Could Be{' '}
-          <span className="relative">
-            Missing Out
-            <div className="absolute -bottom-2 left-0 right-0 h-1 bg-warning rounded-full"></div>
-          </span>
+            <span className="text-gold">
+              Missing Out
+            </span>
           {' '}on a Major Auto Insurance Discount
         </h1>
 

@@ -45,7 +45,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
         </p>
 
         {/* Value Proposition Points */}
-        <div className="animate-bounce-in grid md:grid-cols-3 gap-6 mb-10">
+        <div className="animate-bounce-in grid md:grid-cols-3 gap-6 mb-10 -ml-4">
           <div className="flex items-center justify-center text-center md:text-left">
             <TrendingDown className="w-8 h-8 mr-3 text-success-light" />
             <div>
